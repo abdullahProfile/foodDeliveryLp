@@ -456,8 +456,7 @@ body {
 }
 
 .categories-content__card img {
-	border-top-right-radius: 10px;
-	border-top-left-radius: 10px;
+	border-radius: 10px;
 }
 
 .categories-content__card-text h3,p {
