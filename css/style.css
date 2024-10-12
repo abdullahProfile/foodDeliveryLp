@@ -429,7 +429,6 @@ body {
 	gap: 88px;
 	padding-block: 80px;
 	flex-direction: column;
-	text-align: center;
 }
 
 .categories-content h2{
@@ -437,6 +436,7 @@ body {
 	font-weight: bold;
 	font-family: 'Times New Roman', Times, serif;
 	text-transform: uppercase;
+	text-align: center;
 }
 
 .categories-cards__contianer {
