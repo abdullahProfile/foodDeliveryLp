@@ -391,3 +391,121 @@ body {
 		padding-inline: 20px;
 	}
 }
+
+.order-tracking__contianer {
+	max-width: 1920px;
+	margin-inline: auto;
+	gap: 20px;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.order-tracking__contianer-card {
+	max-width: 307px;
+	flex-direction: column;
+}
+
+.order-tracking__contianer-text {
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.order-tracking__contianer-text h3 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #424242;
+}
+
+.order-tracking__contianer-text p {
+	color: #7c7c7c;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.categories-content {
+	max-width: 1920px;
+	margin-inline: auto;
+	justify-content: center;
+	gap: 88px;
+	padding-block: 80px;
+	flex-direction: column;
+	text-align: center;
+}
+
+.categories-content h2{
+	font-size: 40px;
+	font-weight: bold;
+	font-family: 'Times New Roman', Times, serif;
+	text-transform: uppercase;
+}
+
+.categories-cards__contianer {
+	justify-content: center;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+.categories-content__card {
+	max-width: 283px;
+	flex-direction: column;
+	gap: 20px;
+	transition: all .3s ease-in;
+
+	&:hover {
+		transform: translateY(-10px);
+	}
+}
+
+.categories-content__card img {
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.categories-content__card-text h3,p {
+	font-size: 24px;
+	font-weight: bold;
+	color: #424242;
+}
+
+.categories-content__card-text a {
+	color: #FFB30E;
+	text-decoration: none;
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	font-weight: bold;
+
+	&:hover {
+		color: #F17228;
+	}
+}
+
+.categories-content-cta {
+	text-decoration: none;
+	background: #F17228;
+	color: #fff;
+	padding: 21px 98px;
+	border-radius: 5px;
+	text-align: center;
+	position: relative;
+	transition: all .3s ease-in;
+	z-index: 1;
+}
+
+.categories-content-cta::after {
+	content: "";
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 0;
+	height: 100%;
+	z-index: -1;
+	background-color: #FFB30E;
+	transition: all .3s ease-in;
+	border-radius: 5px;
+}
+
+.categories-content-cta:hover::after {
+	width: 100%;
+	left: 0;
+}
