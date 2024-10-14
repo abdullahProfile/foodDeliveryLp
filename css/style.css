@@ -599,3 +599,14 @@ body {
 	left: 24px;
 	transform: translateY(-50%);
 }
+
+.features-content-cta {
+	text-decoration: none;
+	color: #fff;
+	padding: 21px 48px;
+	box-shadow: 0 4px #F17228;
+	background: #FFB30E;
+	border-radius: 10px;
+	text-transform: capitalize;
+	font-weight: 700;
+}
